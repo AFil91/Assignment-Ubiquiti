@@ -1,0 +1,22 @@
+Bug Title
+----------
+Connected Venues images broken on smaller window sizes
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+Browser window resized below 1376x960
+User navigated to Articles via "View all articles"
+
+Steps to reproduce
+-------------------
+1. Open any article
+2. Scroll to "Connected Venues"
+
+Result
+-------
+Venue images are not rendered correctly.
+
+Expected
+---------
+Images render correctly at all supported window sizes.

@@ -1,0 +1,22 @@
+Bug Title
+----------
+Search results dialog has wrong proportions on mobile / small window
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+Mobile device or browser window narrower than 1025px
+
+Steps to reproduce
+-------------------
+1. Open the main page
+2. Tap the search bar and start typing
+
+Result
+-------
+Search results dialog appears with wrong proportions; text is cut off.
+
+Expected
+---------
+Dialog displays with correct proportions and readable text.
+

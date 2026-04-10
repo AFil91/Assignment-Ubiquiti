@@ -1,0 +1,23 @@
+Bug Title
+----------
+Ads disappear after returning from "Other destinations in Sweden" page
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on the main page with ads visible
+
+Steps to reproduce
+-------------------
+1. Scroll to "Check out other destinations in Sweden"
+2. Click "See more"
+3. Press browser Back button
+
+Result
+-------
+Ads no longer appear on the main page.
+
+Expected
+---------
+Ads remain visible after navigating back.
+

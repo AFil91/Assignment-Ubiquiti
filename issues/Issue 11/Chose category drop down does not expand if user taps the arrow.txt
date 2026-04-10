@@ -1,0 +1,20 @@
+Bug Title
+----------
+Category dropdown doesn't open when tapping the arrow
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on a page with the Category filter (See more, Eat, or Nightlife)
+
+Steps to reproduce
+-------------------
+1. Tap the arrow icon in the category dropdown
+
+Result
+-------
+Nothing happens; dropdown stays closed.
+
+Expected
+---------
+Dropdown opens when the arrow is tapped.

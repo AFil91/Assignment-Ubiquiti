@@ -1,0 +1,23 @@
+Bug Title
+----------
+[mobile] Buttons at the top of the screen are unresponsive
+
+Preconditions
+--------------
+Mobile device (Samsung S23, Android 15)
+User is on the "See and do" page
+
+Steps to reproduce
+-------------------
+1. Scroll until action buttons reach the top of the screen
+2. Tap any button
+
+Result
+-------
+Taps have no effect.
+
+Expected
+---------
+Buttons respond normally regardless of scroll position.
+
+

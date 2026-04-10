@@ -1,0 +1,21 @@
+Bug Title
+----------
+Removing a category filter causes page to scroll to the top
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on a page with the Category filter (See more, Eat, or Nightlife)
+At least one category is selected
+
+Steps to reproduce
+-------------------
+1. Tap the X on any selected category tag
+
+Result
+-------
+Page jumps to the top.
+
+Expected
+---------
+Page stays in position; no scroll jump.

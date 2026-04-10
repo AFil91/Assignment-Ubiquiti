@@ -1,0 +1,23 @@
+Bug Title
+----------
+Map/Grid toggle button has no effect
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on https://www.inyourpocket.com/sweden/stockholm/venues
+(navigated from any venue page via the Venues button)
+
+Steps to reproduce
+-------------------
+1. Click the Map button
+
+Result
+-------
+Nothing happens.
+
+Expected
+---------
+View switches to map view.
+
+

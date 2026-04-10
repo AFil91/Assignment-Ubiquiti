@@ -1,0 +1,21 @@
+Bug Title
+----------
+"Please write a comment" error shown even when comment field is filled in
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on any page with a comment section (e.g. Articles, See more)
+
+Steps to reproduce
+-------------------
+1. Scroll to "Leave a comment"
+2. Fill in only the comment field and submit
+
+Result
+-------
+"Please write a comment!" error is shown despite the field being filled.
+
+Expected
+---------
+Only email and name validation errors shown; no false error on the comment field.

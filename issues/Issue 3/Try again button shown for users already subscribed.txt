@@ -1,0 +1,23 @@
+Bug Title
+----------
+"Try again" button shown after "already subscribed" message
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User has previously subscribed to the newsletter
+
+Steps to reproduce
+-------------------
+1. Open the main page
+2. Scroll to the "Stay in touch" section
+3. Enter the already-subscribed email and tap Subscribe
+
+Result
+-------
+"Already subscribed" message is shown alongside a "Try again" button.
+
+Expected
+---------
+No "Try again" button — the user is already subscribed and has nothing to retry.
+

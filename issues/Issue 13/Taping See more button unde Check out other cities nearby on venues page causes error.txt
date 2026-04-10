@@ -1,0 +1,27 @@
+Bug Title
+----------
+Tapping "See more" in "Check out other cities nearby" causes a 500 error
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on https://www.inyourpocket.com/sweden/stockholm/venues
+(navigated from any venue page via the Venues button)
+
+Steps to reproduce
+-------------------
+1. Scroll to "Check out other cities nearby"
+2. Tap "See more"
+
+Result
+-------
+500 error: "Something unexpected happened. Please try again later."
+Console error: NotFoundError: Failed to execute ‘removeChild’ on ‘Node’: The node to be removed is not a child of this node.
+
+Expected
+---------
+User is redirected to https://www.inyourpocket.com/sweden
+
+Notes
+------
+"Load more" button also stops working after the error occurs.

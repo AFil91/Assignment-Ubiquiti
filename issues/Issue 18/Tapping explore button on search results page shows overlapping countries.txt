@@ -1,0 +1,24 @@
+Bug Title
+----------
+Explore button on search results shows overlapping country names (mobile)
+
+Preconditions
+--------------
+Mobile device
+User has at least one recent search for a venue (e.g. Herman's Vegetariska Restaurang)
+
+Steps to reproduce
+-------------------
+1. Open Search
+2. Tap a recent search entry
+3. Scroll to the bottom and tap "Explore"
+
+Result
+-------
+Country names overlap each other.
+
+Expected
+---------
+Country names display without overlapping.
+
+

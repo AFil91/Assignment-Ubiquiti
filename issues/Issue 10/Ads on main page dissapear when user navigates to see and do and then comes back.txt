@@ -1,0 +1,22 @@
+Bug Title
+----------
+Ads disappear after navigating to "See and do" and back
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on the main page
+
+Steps to reproduce
+-------------------
+1. Scroll to "See and do" section
+2. Click "View all"
+3. Press browser Back button
+
+Result
+-------
+First 2 ads are missing from the main page.
+
+Expected
+---------
+Ads remain visible after navigating back.

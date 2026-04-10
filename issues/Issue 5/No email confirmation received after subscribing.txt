@@ -1,0 +1,22 @@
+Bug Title
+----------
+No confirmation email received after subscribing
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User has not previously subscribed to the newsletter
+
+Steps to reproduce
+-------------------
+1. Scroll to the "Stay in touch" section
+2. Enter a new email and tap Subscribe
+
+Result
+-------
+No confirmation email is received.
+
+Expected
+---------
+A confirmation email is sent after successful subscription.
+

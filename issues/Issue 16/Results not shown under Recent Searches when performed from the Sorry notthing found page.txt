@@ -1,0 +1,24 @@
+Bug Title
+----------
+Searches made from the "no results" page don't appear in Recent Searches
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on the search page
+
+Steps to reproduce
+-------------------
+1. Search for a term that returns no results
+2. On the "no results" page, search for a new term
+3. Return to the main search page and check "Recent Searches"
+
+Result
+-------
+The search from step 2 is not listed under Recent Searches.
+
+Expected
+---------
+All searches saved to Recent Searches, regardless of where they were made.
+
+

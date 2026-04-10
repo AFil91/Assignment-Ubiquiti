@@ -1,0 +1,22 @@
+Bug Title
+----------
+Destination search results are missing thumbnails
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on the search page
+
+Steps to reproduce
+-------------------
+1. Search for a term that returns results in the Destinations section
+
+Result
+-------
+No image shown for destination results.
+
+Expected
+---------
+Thumbnail image displayed for each destination result.
+
+

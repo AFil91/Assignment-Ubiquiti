@@ -1,0 +1,22 @@
+Bug Title
+----------
+[mobile] Map button on articles with no map scrolls to page top
+
+Preconditions
+--------------
+Mobile device (Samsung S23, Android 15)
+User is on an article without a map (e.g. "Exploring Stockholm in spring")
+
+Steps to reproduce
+-------------------
+1. Tap the map button
+
+Result
+-------
+Page scrolls to the top.
+
+Expected
+---------
+Map button should be hidden for articles that have no map.
+
+

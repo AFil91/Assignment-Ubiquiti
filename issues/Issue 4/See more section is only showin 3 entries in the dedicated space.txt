@@ -1,0 +1,21 @@
+Bug Title
+----------
+"See and do" section shows only 3 entries instead of 5
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+User is on the main page
+
+Steps to reproduce
+-------------------
+1. Scroll to the "See and do" section
+
+Result
+-------
+Only 3 places are shown.
+
+Expected
+---------
+5 places shown, consistent with all other sections (data is available).
+

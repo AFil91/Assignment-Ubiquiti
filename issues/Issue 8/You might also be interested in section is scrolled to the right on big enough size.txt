@@ -1,0 +1,22 @@
+Bug Title
+----------
+"You might also be interested in" section overflows to the right on large windows
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+Browser window resized below 1376x960
+User navigated to Articles via "View all articles"
+
+Steps to reproduce
+-------------------
+1. Scroll to "You might also be interested in"
+2. Click "View all"
+
+Result
+-------
+Items overflow horizontally to the right even at window sizes large enough to show them normally.
+
+Expected
+---------
+Items wrap or display below each other — horizontal overflow should only occur on small/mobile screens.

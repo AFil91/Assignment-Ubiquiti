@@ -1,0 +1,24 @@
+Bug Title
+----------
+Page-level ads initialization error in console
+
+Preconditions
+--------------
+Chrome 146.0.7680.178
+
+Steps to reproduce
+-------------------
+1. Open https://www.inyourpocket.com/sweden/stockholm
+2. Open DevTools → Console
+
+Result
+-------
+Error: "TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page."
+
+Expected
+---------
+No error. Ads initialize once per page load.
+
+Notes
+------
+Impact: potential ad revenue loss and console pollution.
